@@ -1,0 +1,19 @@
+.boton {
+    padding: 8px;
+    border: none;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 8px;
+}
+
+.boton::after {
+    content: "Pasa por encima";
+}
+
+.boton:hover {
+    color: white;
+    background-color: green;
+}
+
+.boton:hover::after {
+    content: "Hecho";
+}
